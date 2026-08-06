@@ -1,0 +1,25 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap ;
+    justify-content:space-around ;
+    align-items: center;
+
+    height:80px ;
+    background-color: rgb(185, 171, 144);
+}
+
+.box {background-color: rgb(209, 199, 194);
+    border: 2px solid rgb(221, 221, 221);
+    border-radius: 5px;
+    color: black;
+    padding: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    
+}
