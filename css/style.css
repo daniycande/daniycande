@@ -1,4 +1,5 @@
 .flex-container{
+    margin: 10px;
     display: flex;
     flex-direction: row;
     flex-wrap:wrap ;
@@ -22,4 +23,26 @@ nav a {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
     
+}
+
+.grid-container {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 10px; /* separa los elementos */
+}
+
+.grid-container img{
+    width: 200px;
+    height: 100px;
+}
+
+.item 
+{
+    border: 1px; color: black;
+     background-color: rgb(185, 171, 144);
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 6px;
 }
