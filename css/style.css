@@ -32,8 +32,8 @@ gap: 10px; /* separa los elementos */
 }
 
 .grid-container img{
-    width: 200px;
-    height: 100px;
+    width: 300px;
+    height: 200px;
 }
 
 .item 
@@ -45,4 +45,23 @@ gap: 10px; /* separa los elementos */
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 6px;
+}
+ 
+.item2 
+{
+      border: 1px; color: black;
+     background-color: rgb(185, 171, 144);
+    color: black;
+    padding: 20px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 6px;
+    
+}
+.flex_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    min-height: 100vh;
 }
